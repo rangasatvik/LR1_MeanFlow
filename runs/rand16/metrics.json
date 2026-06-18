@@ -1,0 +1,34 @@
+{
+  "coupling": "random",
+  "config": {
+    "size": 16,
+    "base": 24,
+    "ch_mult": [
+      1,
+      2
+    ],
+    "num_res": 1,
+    "emb": 128,
+    "tile": 4,
+    "lr": 0.001,
+    "p_eq": 0.8,
+    "dist": "uniform",
+    "gamma": 1.0,
+    "coupling": "random",
+    "gap0": 0.3,
+    "gap_ramp": 0.7
+  },
+  "names": [
+    "astronaut",
+    "coffee",
+    "chelsea(cat)"
+  ],
+  "steps": 800,
+  "final_residual_mse": 0.19699,
+  "reproduction_mse_per_image": {
+    "astronaut": 0.20828,
+    "coffee": 0.20597,
+    "chelsea(cat)": 0.33149
+  },
+  "reproduction_mse_mean": 0.248577
+}

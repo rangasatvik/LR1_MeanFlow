@@ -1,0 +1,6 @@
+torch>=2.2          # needs torch.func.jvp (forward-mode AD)
+numpy
+pillow
+matplotlib
+scikit-image        # only for the 3 sample images in data.py
+# torchvision       # only needed for the bonus: train_imagenette.py

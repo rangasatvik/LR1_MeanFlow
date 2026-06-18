@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+images.pt
+data/
+.DS_Store
+.ipynb_checkpoints/
+# kept in the repo: runs/**/*.png and runs/**/metrics.json (the results)
