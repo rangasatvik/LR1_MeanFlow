@@ -12,7 +12,11 @@ them with a single network evaluation.
   recognizable training images. → `runs/rand16/`
 - **Correctness:** `python test_meanflow.py` passes 5 checks (incl. JVP vs finite differences).
 
-See **`report.html`** for the full write-up, the debugging story, and the images.
+## 📄 Report
+
+**[▶ View the rendered report](https://htmlpreview.github.io/?https://github.com/rangasatvik/LR1_MeanFlow/blob/main/report.html)** — the full write-up: MeanFlow explained in plain terms, the debugging story (the heavily-weighted part), the result images, and loss curves.
+
+> GitHub displays `.html` files as source code, so the link above renders `report.html` via *htmlpreview*. Alternatives: download [`report.html`](report.html) and open it in any browser, or enable **GitHub Pages** (repo Settings → Pages → Deploy from branch → `main` / root) to host it at `https://rangasatvik.github.io/LR1_MeanFlow/report.html`.
 
 > The build machine had **no GPU** (4-core ARM CPU), so runs use a small model and a resumable,
 > time-budgeted trainer. The required overfit is at 32×32; the random-coupling *generation* demo is
